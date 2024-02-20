@@ -1,0 +1,138 @@
+.container {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 100%;
+  transition: .5s;
+  margin-top: 70px;
+  padding-left: 130px;
+  padding-right: 100px;
+}
+
+ .sidebar-open {
+  padding-right: 20px;
+  padding-left: 350px;
+} 
+
+.box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+  padding-top: 25px;
+}
+
+
+h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.font-titulo{
+  font-size: clamp(1.75em, 1em + 3vw, 3em);
+  line-height: 45px;
+}
+.font-p {
+  font-size: 1rem;;
+}
+
+.home-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--cor-12);
+  background: var(--cor-0);
+  border-radius: 10px;
+  padding: 10px;
+  gap: 10px;
+  border: 1px solid;
+  --tw-border-opacity: 1;
+  border-color: rgb(51 50 54/var(--tw-border-opacity));
+  transition: .5s;
+  text-transform :capitalize;
+}
+.button i {
+  color: var(--cor-12);
+}
+.button:hover i,
+.button:hover{
+  background: transparent;
+  color: var(--cor-0);
+}
+.buttons-icons i:nth-child(1) {
+  float:right;
+}
+.buttons-icons i:nth-child(2) {
+  opacity: 0;
+  position: absolute;
+}
+.button:hover .buttons-icons i:nth-child(1) {
+  opacity: 0;
+}
+.button:hover .buttons-icons i:nth-child(2) {
+  opacity: 1;
+  transition: 0.4s ease-in-out;
+}
+.button-secund, 
+.button-secund  {
+  background: var(--cor-10);
+  color: var(--cor-0);
+}
+.button-secund i {
+  color: var(--cor-0);
+}
+.button-secund:hover {
+  background-color: transparent;
+}
+
+/*AVISO*/
+.aviso {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;  
+  border: 1px solid;
+  --tw-border-opacity: 1;
+  border-color: rgb(51 50 54/var(--tw-border-opacity));
+  padding: 10px 25px 10px 10px;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.2);
+  width: fit-content;
+  animation: fadeInOut 3s infinite;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1; 
+  }
+  100% {
+    opacity: 0; 
+  }
+}
+
+.aviso p{
+  color: var(--cor-5);
+  font-size: small !important;
+  padding: 0px !important;
+}
+
+@media (max-width: 850px) { 
+  .aviso{
+    display: none;
+  }
+  .button {
+    padding: 8px;
+  }
+  .font-titulo{
+    line-height: 35px;
+  }
+}

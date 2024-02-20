@@ -1,0 +1,143 @@
+.text-titulo {
+  color: var(--cor-6);
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding-bottom: 15px;
+  width: 70%;
+}
+
+.ultimos-projetos {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  text-align: center;
+  max-width: 1200px;
+  padding-top: 35px;
+}
+.titulo-ultimos-projeto {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.button-ultimos-projeto .button{
+  padding: 8px;
+  background: var(--cor-10);
+  color: var(--cor-0);
+}
+
+.button-ultimos-projeto .button i{
+  color: var(--cor-0);
+}
+
+/*Card Projetos*/
+.container-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  padding-top: 25px;
+}
+
+.card {
+  position: relative;
+}
+
+.card img {
+  border-radius: 10px 10px 0px 0px;
+  border: 1px solid;
+  --tw-border-opacity: 1;
+  border-color: rgb(51 50 54/var(--tw-border-opacity));
+}
+.card:hover img {
+  transition: 0.5s;
+  filter: blur(.1rem);
+}
+.card:hover .card-titulo {
+  transition: 0.5s;
+  margin-top: -50px;
+}
+.card:hover .home-buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.card .card-titulo {
+  border: 1px solid;
+  --tw-border-opacity: 1;
+  border-color: rgb(51 50 54/var(--tw-border-opacity));
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  top: -20px;
+  text-align: start;
+  padding: 10px;
+  background: var(--cor-12);
+}
+.card-titulo .descricao {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: start !important;
+}
+.card-titulo .home-buttons {
+  display: none;
+  padding-top: 30px;
+}
+.card-titulo .home-buttons .button{
+  width: 50%;
+  background: var(--cor-11);
+  color: var(--cor-0);
+}
+.card-titulo .home-buttons .button:hover{
+  background: var(--cor-10);
+}
+
+.card-titulo .home-buttons .button i {
+  color: var(--cor-5);
+}
+
+.card .card-titulo h2 {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+.card .card-titulo p {
+  font-size: .9rem;
+}
+
+.categoria {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.card .categoria span {
+  background-color: var(--cor-10);
+  padding: 4px 8px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 12px;
+  border-radius: 50em;
+}
+
+@media (max-width: 850px) { 
+  .container-card {
+    grid-template-columns: 1fr;
+  }
+  .text-titulo {
+    width: 100%;
+  }
+  .card-titulo .home-buttons {
+    display: flex;  
+  }
+  .card:hover .card-titulo {
+    transition: 0.5s;
+    margin-top: 0px;
+  }
+  .button-ultimos-projeto .button{
+    padding: 5px;
+  }
+  .card:hover img {
+    filter: none;
+  }
+}

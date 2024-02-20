@@ -1,0 +1,142 @@
+.container-card-skil {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+  padding-top: 30px;
+}
+
+.container-card-skil .container-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+}
+
+.card-skil {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  background: var(--cor-11);
+}
+.card-skil:hover {
+  background: transparent;
+  --tw-border-opacity: 1;
+  border: 1px solid rgb(51 50 54/var(--tw-border-opacity));
+}
+
+.card-skil:hover .skil{
+  transition: 0.5s;
+  transform: scale(1.1);
+} 
+
+.card-skil .skil{
+  width: 80px;
+  height: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-skil .skil .icon{
+  font-size: 3rem;	
+  transition: 1s;
+  color: var(--cor-6);
+}
+
+.card-skil span{
+  text-transform: capitalize;
+  font-size: 1rem;
+}
+
+.card-skil:nth-child(1) {
+  border-radius: 10px 0px 0px 0px;
+}
+.card-skil:nth-child(2) {
+  border-radius: 0px 10px 0px 0px;
+}
+
+.card-skil:nth-last-child(-n+1) {
+  border-radius: 0px 0px 10px 0px !important;
+}
+.card-skil:nth-last-child(-n+2) {
+  border-radius: 0px 0px 0px 10px;
+}
+
+
+@media (max-width: 850px) {
+    .container-card-skil .container-card {
+    grid-template-columns: 1fr;
+  }
+}
+.container-card-skil {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+  padding-top: 30px;
+}
+
+.container-card-skil .container-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+}
+
+.card-skil {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  background: var(--cor-11);
+}
+.card-skil:hover {
+  background: transparent;
+  --tw-border-opacity: 1;
+  border: 1px solid rgb(51 50 54/var(--tw-border-opacity));
+}
+
+.card-skil:hover .skil{
+  transition: 0.5s;
+  transform: scale(1.1);
+} 
+
+.card-skil .skil{
+  width: 80px;
+  height: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-skil .skil .icon{
+  font-size: 3rem;	
+  transition: 1s;
+  color: var(--cor-6);
+}
+
+.card-skil span{
+  text-transform: capitalize;
+  font-size: 1rem;
+}
+
+.card-skil:nth-child(1) {
+  border-radius: 10px 0px 0px 0px;
+}
+.card-skil:nth-child(2) {
+  border-radius: 0px 10px 0px 0px;
+}
+
+.card-skil:nth-last-child(-n+1) {
+  border-radius: 0px 0px 10px 0px !important;
+}
+.card-skil:nth-last-child(-n+2) {
+  border-radius: 0px 0px 0px 10px;
+}
+
+
+@media (max-width: 850px) {
+    .container-card-skil .container-card {
+    grid-template-columns: 1fr;
+  }
+}

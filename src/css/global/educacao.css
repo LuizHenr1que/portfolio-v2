@@ -1,0 +1,50 @@
+.list-education {
+  margin-top: 30px;
+}
+
+.list-education ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.course {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  border-radius: 15px;
+  background: var(--cor-11);
+  margin-bottom: 10px;
+}
+
+.course-img img{
+  display: block;
+	transition: .4s;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	filter: gray;
+  width: 130px;
+}
+
+.course:hover,  
+.course:hover img{
+  -webkit-filter: none;	
+	filter: none;	
+  transition: .4s;
+  background: transparent;
+}
+
+.box-text {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 20px;
+}
+
+.course-text p {
+  font-weight: bold;
+  font-size: small;
+  color: var(--cor-8);
+}
