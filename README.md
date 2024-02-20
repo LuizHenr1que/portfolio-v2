@@ -1,10 +1,10 @@
 # portfolio
 
-![preview](./.github/screen.png)
+![preview](/src/Assets/github/screen.png)
 
 > Layout totalmente rensponsivo.
 
-[🔗Clique aqui para acessar]()
+[🔗Clique aqui para acessar](https://luizhenr1que.github.io/portfolio/)
 
 ## 🛠 Tecnologias
 
