@@ -126,6 +126,7 @@
   }
   .text-titulo {
     width: 100%;
+    padding-bottom: 10px;
   }
   .card-titulo .home-buttons {
     display: flex;  
