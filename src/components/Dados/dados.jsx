@@ -34,7 +34,14 @@ export const PROJETOS = {
       acessar: 'https://luizhenr1que.github.io/ayerlLol/',
       github: 'https://github.com/LuizHenr1que/ayerlLol',
     },
-    
+    {
+      img: import('../../Assets/gym.png'),
+      name: 'LH academia',
+      dsc: 'Projeto construido inspirado em um layout encontrado no canva. Rensponsivo.',
+      tecnologias: ['HTML', 'CSS', 'Bootstrap'],
+      acessar: 'https://luizhenr1que.github.io/LayoutAcademia/',
+      github: 'https://github.com/LuizHenr1que/LayoutAcademia',
+    },
   ],
 };
 
