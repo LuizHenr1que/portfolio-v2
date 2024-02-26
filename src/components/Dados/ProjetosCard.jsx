@@ -47,7 +47,7 @@ const ProjetosCard = () => {
               </div>
             </div>
             <div className="home-buttons">
-              <Link to={projeto.acessar} target='' className="button">
+              <Link to={projeto.acessar} target="_blank" className="button">
                 <i className="bx bx-file-find"></i>
                 Acessar
               </Link>
