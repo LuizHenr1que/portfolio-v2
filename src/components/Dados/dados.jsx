@@ -87,5 +87,9 @@ export const FERRAMENTAS = {
       icon: 'bx bxs-data',
       dsc: 'MySQL',
     },
+    {
+      icon: 'bx bxl-sass',
+      dsc: 'SASS',
+    },
   ],
 };
