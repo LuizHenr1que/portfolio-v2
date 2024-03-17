@@ -27,6 +27,14 @@ export const PROJETOS = {
       github: 'https://github.com/LuizHenr1que/Menu',
     },
     {
+      img: import('../../Assets/BICKGRAFT.png'),
+      name: 'Bikcraft',
+      dsc: 'Layout Bikcraft',
+      tecnologias: ['HTML', 'CSS', 'JavaScript'],
+      acessar: 'https://luizhenr1que.github.io/bikcraft/',
+      github: 'https://github.com/LuizHenr1que/bikcraft',
+    },
+    {
       img: import('../../Assets/ayellol.png'),
       name: 'AyelLol',
       dsc: 'Projeto construido inspirado em um layout do site oficial do yael lol. Rensponsivo',
@@ -35,12 +43,12 @@ export const PROJETOS = {
       github: 'https://github.com/LuizHenr1que/ayerlLol',
     },
     {
-      img: import('../../Assets/gym.png'),
-      name: 'LH academia',
-      dsc: 'Projeto construido inspirado em um layout encontrado no canva. Rensponsivo.',
-      tecnologias: ['HTML', 'CSS', 'Bootstrap'],
-      acessar: 'https://luizhenr1que.github.io/LayoutAcademia/',
-      github: 'https://github.com/LuizHenr1que/LayoutAcademia',
+      img: import('../../Assets/CODENFT.png'),
+      name: 'CodeNFT',
+      dsc: 'Site desenvolvido através do protótipo no figma.',
+      tecnologias: ['HTML', 'SASS', 'JavaScript'],
+      acessar: 'https://luizhenr1que.github.io/CodeNFT/',
+      github: 'https://github.com/LuizHenr1que/CodeNFT',
     },
   ],
 };
