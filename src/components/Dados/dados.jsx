@@ -60,6 +60,10 @@ export const FERRAMENTAS = {
       dsc: 'React',
     },
     {
+      icon: 'bx bxl-nodejs',
+      dsc: 'NodeJs',
+    },
+    {
       icon: 'bx bxl-wordpress',
       dsc: 'Wordpress',
     },
@@ -88,12 +92,8 @@ export const FERRAMENTAS = {
       dsc: 'Git',
     },
     {
-      icon: 'bx bxl-github',
-      dsc: 'GitHub',
-    },
-    {
       icon: 'bx bxs-data',
-      dsc: 'MySQL',
+      dsc: 'SQL',
     },
     {
       icon: 'bx bxl-sass',

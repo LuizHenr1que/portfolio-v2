@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import ProjetosInicial from '../Dados/ProjetosInicial';
 import { useSidebar } from '../Sidebar/SidebarClick';
 import { Link } from 'react-router-dom';
-import curriculoPDF from '../../Assets/pdf/LUIZHENRIQUE.pdf';
+import curriculoPDF from '../../Assets/pdf/LuizHenriqueFullStack.pdf';
 
 const Home = () => {
   const { sidebarOpen } = useSidebar();
@@ -20,7 +20,7 @@ const Home = () => {
           </h1>
           <p className="font-p">
             Olá, Luiz Henrique ao seu dispor.{' '}
-            <span className="cor-7">Eu sou um desenvolvedor front-end.</span>
+            <span className="cor-7">Eu sou um Desenvolvedor Full Stack.</span>
           </p>
         </div>
 

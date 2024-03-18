@@ -16,11 +16,9 @@ const Sobre = () => {
             <span className="cor-7"> code</span>.
           </h1>
           <p className="font-p">
-            Eu me chamo Luiz, tenho 22 anos e sou um desenvolvedor Fron-end (e
-            ocasionalmente back-end) especializado na construção e design de
-            experiências digitais! 
-            <span className="cor-7"> Moro no Rio de janeiro - Brasil</span>( Formado em Análise e Desenvolvimento de Sistemas e cursando Especializão em Front-End na Origamid ).
-            
+            Eu me chamo Luiz, tenho 22 anos e sou Desenvolvedor Full Stack especializado na construção e design de
+            experiências digitais!
+            <span className="cor-7"> Moro no Rio de janeiro - Brasil</span>( Formado em Análise e Desenvolvimento de Sistemas ).
           </p>
         </div>
 
@@ -29,8 +27,6 @@ const Sobre = () => {
 
           <div className="container-card">
             <Ferramentas/>
-
-    
           </div>
         </div>
       </section>
