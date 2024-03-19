@@ -40,7 +40,7 @@ const Educacao = () => {
               <div className="box-text">
                 <div className="course-text">
                   <h4>Origamid</h4>
-                  <p>Jul. 2023 - em andamento</p>
+                  <p>Março. 2024 - Concluído</p>
                 </div>
                 <i className="bx bx-chevron-right"></i>
               </div>
