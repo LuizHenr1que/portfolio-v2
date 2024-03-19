@@ -93,11 +93,7 @@ export const FERRAMENTAS = {
     },
     {
       icon: 'bx bxs-data',
-      dsc: 'Myqsl',
-    },
-    {
-      icon:'bx bxl-postgresql',
-      dsc: 'Postgresql',
+      dsc: 'MySQL',
     },
     {
       icon:'bx bxl-postgresql',
