@@ -23,7 +23,7 @@ const Sidebar = () => {
 
             <div className="text logo-text">
               <span className="name">Luiz Henrique</span>
-              <span className="profissao">Front-End Developer</span>
+              <span className="profissao">Full stack Developer</span>
             </div>
           </div>
 
