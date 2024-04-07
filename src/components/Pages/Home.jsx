@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import ProjetosInicial from '../Dados/ProjetosInicial';
 import { useSidebar } from '../Sidebar/SidebarClick';
 import { Link } from 'react-router-dom';
-import curriculoPDF from '../../Assets/pdf/FulStack.pdf';
+import curriculoPDF from '../../Assets/pdf/FulStack-Luiz.pdf';
 
 const Home = () => {
   const { sidebarOpen } = useSidebar();
