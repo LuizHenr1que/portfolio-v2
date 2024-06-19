@@ -58,6 +58,14 @@ export const FERRAMENTAS = {
     {
       icon: 'bx bxl-react icon',
       dsc: 'React',
+    },   
+    {
+      icon: 'bx bxl-php',
+      dsc: 'PHP',
+    },    
+    {
+      icon: 'bx bxs-checkbox',
+      dsc: 'Laravel',
     },
     {
       icon: 'bx bxl-nodejs',
