@@ -42,14 +42,6 @@ export const PROJETOS = {
       acessar: 'https://luizhenr1que.github.io/ayerlLol/',
       github: 'https://github.com/LuizHenr1que/ayerlLol',
     },
-    {
-      img: import('../../Assets/CODENFT.png'),
-      name: 'CodeNFT',
-      dsc: 'Site desenvolvido através do protótipo no figma.',
-      tecnologias: ['HTML', 'SASS', 'JavaScript'],
-      acessar: 'https://luizhenr1que.github.io/CodeNFT/',
-      github: 'https://github.com/LuizHenr1que/CodeNFT',
-    },
   ],
 };
 
