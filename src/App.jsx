@@ -15,10 +15,10 @@ const App = () => {
         <SidebarProvider>
           <Sidebar />
           <Routes>
-            <Route path="/portfolio" element={<Home />} />
-            <Route path="portfolio/sobre" element={<Sobre />} />
-            <Route path="portfolio/experiencia" element={<Experiencia />} />
-            <Route path="portfolio/educacao" element={<Educacao />} />
+            <Route path="/portfolio-v2" element={<Home />} />
+            <Route path="portfolio-v2/sobre" element={<Sobre />} />
+            <Route path="portfolio-v2/experiencia" element={<Experiencia />} />
+            <Route path="portfolio-v2/educacao" element={<Educacao />} />
           </Routes>
         </SidebarProvider>
       </BrowserRouter>
